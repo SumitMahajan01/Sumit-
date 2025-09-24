@@ -1,0 +1,38 @@
+name: task_master_app
+description: An AI-powered gamified daily task manager.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_auth: ^4.15.3
+
+  # State Management & Services
+  provider: ^6.1.1
+  get_it: ^7.6.4
+
+  # UI & UX
+  intl: ^0.18.1
+  fl_chart: ^0.66.0
+  google_fonts: ^6.1.0
+  flutter_local_notifications: ^16.3.0
+
+  # Functionality
+  speech_to_text: ^6.5.1
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
